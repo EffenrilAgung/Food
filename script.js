@@ -1,20 +1,16 @@
-// const ICONS = document.querySelectorAll('.section-1-icons i')
-// let i = 1
-// setInterval(()=> {
-//     i++
+const ICONS = document.querySelectorAll('.section-1-icons i')
+let i = 1
+setInterval(()=> {
+    i++
 
-//     const ICON = document.querySelector('.section-1-icons .change')
+    const ICON = document.querySelector('.section-1-icons .change')
     
-//     ICON.classList.remove('change')
-//     if(i > ICONS.length) {
-//         ICONS[0].classList.add('change')
-//         i = 1
-//     }else {
-//         ICON.nextElementSibling.classList.add('change')
-//     }
-// }, 1000)
+    ICON.classList.remove('change')
+    if(i > ICONS.length) {
+        ICONS[0].classList.add('change')
+        i = 1
+    }else {
+        ICON.nextElementSibling.classList.add('change')
+    }
+}, 1000)
 
-let hobbies = ["Sport", "Code"]
-for(let hobbie of hobbies) {
-    console.log(hobbie)
-}
